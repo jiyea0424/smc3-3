@@ -10,11 +10,14 @@ public class TestExam {
 	int i=0;
 	int sum=0;
 	for(i=0; i<=a; i++){
-	if(a%3==0 | a%7==0)
-		sum+=a;
+	if(a%3==0){
+		System.out.println(i);
 		
 	}
-
+	else if(a%7==0){
+		System.out.println(i);
+	}
+	}
 	System.out.println("1~"+a+"까지 3의 배수이면서 7의 배수인 수의 합은"+sum+"입니다.");
 	}
 
